@@ -183,7 +183,7 @@ export default function Projects() {
           ))}
         </div>
         <div className={`pj-footer-row${inView?' in-view':''}`}>
-          <a href="https://github.com/salmantalha" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+          <a href="https://github.com/SALMANUDDIN-TALHA-MOHD" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
             <FiGithub/> View All on GitHub
           </a>
         </div>
