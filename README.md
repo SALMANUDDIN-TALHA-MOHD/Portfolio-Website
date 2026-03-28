@@ -29,73 +29,11 @@ Run:
 npm install
 ```
 
-### Step 3 — Configure Environment Variables
-Rename `.env.example` to `.env` (or edit the existing `.env`) and fill in your keys:
-
-```env
-VITE_WEB3FORMS_ACCESS_KEY=your_web3forms_access_key_here
-```
-
-**Get a free Web3Forms key:**
-1. Go to https://web3forms.com
-2. Enter your email → Get Access Key
-3. Paste the key in `.env`
-
 ### Step 4 — Run Development Server
 ```bash
 npm run dev
 ```
 Open http://localhost:5173 in your browser.
-
----
-
-## 🎨 Customization
-
-### Change Your Name / Info
-Edit these files:
-- `src/components/Home/Home.jsx` — Name, title, stats
-- `src/components/About/About.jsx` — Bio text, ID card name
-- `src/components/Contact/Contact.jsx` — Email, social links
-- `src/components/Footer/Footer.jsx` — Social links
-
-### Add Your Photo
-Replace the SVG avatar in `About.jsx` with:
-```jsx
-<img src="/your-photo.jpg" alt="Your Name" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-```
-Place `your-photo.jpg` in the `/public` folder.
-
-### Change Projects
-Edit the `projects` array in `src/components/Projects/Projects.jsx`
-
-### Change Skills
-Edit the `skills` array in `src/components/Skills/Skills.jsx`
-
----
-
-## 🏗️ Build for Production
-```bash
-npm run build
-```
-Output goes to the `/dist` folder.
-
----
-
-## 🚀 Deploy to Vercel
-
-### Option A — GitHub + Vercel (Recommended)
-1. Push your project to GitHub
-2. Go to https://vercel.com → New Project
-3. Import your GitHub repo
-4. In **Environment Variables**, add `VITE_WEB3FORMS_ACCESS_KEY`
-5. Click **Deploy** → Done! 🎉
-
-### Option B — Vercel CLI
-```bash
-npm install -g vercel
-vercel login
-vercel
-```
 
 ---
 
