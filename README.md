@@ -4,8 +4,7 @@ A stunning, fully interactive portfolio built with **React + Vite**, featuring:
 - 🎯 Custom cursor with magnetic hover
 - 🏷️ 3D Lanyard ID Card (draggable with elastic spring physics)
 - 🃏 3D Tilt Cards for Skills & Projects
-- 🎲 Fully playable 3D Rubik's Cube
-- 💬 Web3Forms contact form
+- 💬 Formspree contact form
 - ✨ Smooth scroll animations + GSAP-ready
 - 📱 Fully Responsive
 
